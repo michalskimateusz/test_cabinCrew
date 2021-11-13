@@ -1,0 +1,18 @@
+.main {
+  font-size: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-purple-pink-500-01);
+}
+
+.header {
+  width: 60%;
+}
+
+
+

@@ -1,0 +1,48 @@
+.box {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: rgb(79, 219, 167) 5px solid;
+  border-radius: 2rem;
+  background-color: white;
+  padding: 3rem 5rem;
+  max-width: 65rem;
+  height: 70rem;
+
+  &__question {
+    margin-top: 2rem;
+  }
+
+  &__btn {
+    background-color: rgb(79, 219, 167);
+    color: white;
+    padding: 1rem 7rem;
+    border: none;
+    border-radius: .5rem;
+
+    &:hover {
+      background-color: var(--color-pink-500);
+      box-shadow: 0px 20px 25px -10px var(--box-shadow-base);;
+      transform: translateY(-3px);
+    }
+  }
+
+  &__tip {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 4rem;
+    border: rgb(79, 219, 167) 1px solid;
+    border-radius: 3px;
+    width: 75%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__page-num {
+    font-size: 1.6rem;
+  }
+}

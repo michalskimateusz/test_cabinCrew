@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\micha\WebstormProjects\quiz\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\micha\AppData\Local\Microsoft\WindowsApps;C:\Users\micha\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Invariant Violation: expected hoisted manifest for "purgecss-webpack-plugin#webpack#terser-webpack-plugin#webpack"
+      at invariant (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:2314:15)
+      at _loop2 (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95100:9)
+      at PackageHoister.init (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95170:19)
+      at PackageLinker.getFlatHoistedTree (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:48922:20)
+      at PackageLinker.<anonymous> (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:48933:27)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (C:\Users\micha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5301:28)
+
+npm manifest: 
+  {
+    "name": "quiz-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server --config webpack.dev.js --open",
+      "build": "webpack --config webpack.prod.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "autoprefixer":"",
+      "bootstrap": "",
+      "clean-webpack-plugin": "",
+      "css-loader": "",
+      "file-loader": "",
+      "html-loader": "",
+      "html-webpack-plugin": "",
+      "mini-css-extract-plugin": "",
+      "node-sass": "",
+      "optimize-css-assets-webpack-plugin": "",
+      "postcss": "",
+      "postcss-loader": "",
+      "purgecss-webpack-plugin": "",
+      "sass-loader": "",
+      "style-loader": "",
+      "webpack": "^4.44.1",
+      "webpack-cli": "^3.3.12",
+      "webpack-dev-server": "^3.11.0",
+      "webpack-merge": "^5.1.4"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
